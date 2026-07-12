@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Matthiasdeweer/annuaire-innovation-loire
   branch: main
-  auth_endpoint: https://decap-oauth.votre-compte.workers.dev/auth # À remplacer par le Worker Cloudflare
+  auth_endpoint: https://annuaire-oauth-demo.matthias-deweer05.workers.dev/auth
 
 local_backend: false
 
