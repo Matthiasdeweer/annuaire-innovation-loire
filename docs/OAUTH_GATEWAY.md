@@ -94,9 +94,9 @@ export default {
 
 function renderResponse(status, content) {
   if (status === "success") {
-    return `<!DOCTYPE html><html><head><title>Authentification Réussie</title></head><body><p>Connexion réussie ! Fermeture...</p><script>(function(){window.opener.postMessage("authorization:github:success:" + JSON.stringify({token: "${content.token}", provider: "${content.provider}"}), window.location.origin);})();</script></body></html>`;
+    return `<!DOCTYPE html><html><head><title>Authentification Réussie</title></head><body><p>Connexion réussie ! Fermeture...</p><script>(function(){window.opener.postMessage("authorization:github:success:" + JSON.stringify({token: "${content.token}", provider: "${content.provider}"}), "*");})();</script></body></html>`;
   } else {
-    return `<!DOCTYPE html><html><head><title>Erreur</title></head><body><p style="color:red;">Erreur : ${content.message}</p><script>(function(){window.opener.postMessage("authorization:github:error:${content.message}", window.location.origin);})();</script></body></html>`;
+    return `<!DOCTYPE html><html><head><title>Erreur</title></head><body><p style="color:red;">Erreur : ${content.message}</p><script>(function(){window.opener.postMessage("authorization:github:error:${content.message}", "*");})();</script></body></html>`;
   }
 }
 ```
