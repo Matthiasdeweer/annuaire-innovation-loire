@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
           </p>
           <div className="flex justify-center md:justify-end gap-3 text-stone-500">
             <a
-              href="https://www.mife-loiresud.fr"
+              href="https://www.mifeloiresud.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-stone-300 transition-colors underline underline-offset-4 decoration-stone-800 hover:decoration-stone-500"
