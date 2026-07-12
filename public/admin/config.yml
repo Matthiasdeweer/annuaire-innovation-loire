@@ -1,0 +1,146 @@
+backend:
+  name: github
+  repo: BusEntreprendre/annuaire-innovation
+  branch: main
+  auth_endpoint: https://decap-oauth.votre-compte.workers.dev/auth # À remplacer par le Worker Cloudflare
+
+local_backend: false
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "base_de_donnees"
+    label: "Base de données"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "acteurs"
+        label: "Acteurs de l'Innovation"
+        file: "src/data/acteurs.json"
+        description: "Liste complète des programmes d'accompagnement de l'annuaire"
+        fields:
+          - name: "programmes"
+            label: "Programmes"
+            label_singular: "Programme d'accompagnement"
+            widget: "list"
+            add_to_top: true
+            summary: "{{fields.nomProgramme}} ({{fields.structureOperante}})"
+            fields:
+              - label: "Identifiant Unique (slug)"
+                name: "id"
+                widget: "string"
+                hint: "Identifiant en minuscules et tirets (ex: mon-programme-1)"
+              - label: "Nom du programme"
+                name: "nomProgramme"
+                widget: "string"
+              - label: "Structure opérante"
+                name: "structureOperante"
+                widget: "string"
+              - label: "Adhérent French Tech Saint-Etienne"
+                name: "adherentFrenchTech"
+                widget: "boolean"
+                default: false
+              - label: "Logo"
+                name: "logo"
+                widget: "image"
+                required: false
+              - label: "Finalité / Objectifs"
+                name: "finalite"
+                widget: "text"
+                required: false
+              - label: "Description de l'accompagnement"
+                name: "descriptionAccompagnement"
+                widget: "text"
+                required: false
+              - label: "Périodicité"
+                name: "periodicite"
+                widget: "string"
+                required: false
+              - label: "Durée"
+                name: "duree"
+                widget: "string"
+                required: false
+              - label: "Type d'accompagnement"
+                name: "typeAccompagnement"
+                widget: "select"
+                options:
+                  - "Accompagnement collectif"
+                  - "Accompagnement collectif et individuel"
+                  - "Accompagnement individuel"
+                required: false
+              - label: "Mentoring proposé"
+                name: "mentoringPropose"
+                widget: "boolean"
+                default: false
+              - label: "Mise à disposition d'un poste de travail"
+                name: "posteTravailPropose"
+                widget: "boolean"
+                default: false
+              - label: "Lieu d'accueil (Adresse)"
+                name: "lieuAccueil"
+                widget: "string"
+                required: false
+              - label: "Code Postal"
+                name: "codePostal"
+                widget: "string"
+                required: false
+              - label: "Modalités contractuelles"
+                name: "modalitesContractuelles"
+                widget: "text"
+                required: false
+              - label: "Aides financières"
+                name: "aidesFinancieres"
+                widget: "text"
+                required: false
+              - label: "Contact mail"
+                name: "contactMail"
+                widget: "string"
+                required: false
+              - label: "Site Web"
+                name: "siteWeb"
+                widget: "string"
+                required: false
+              - label: "Lien de prise de RDV"
+                name: "lienRdvFT"
+                widget: "string"
+                required: false
+              - label: "Critères entrepreneur (tags)"
+                name: "criteresEntrepreneur"
+                widget: "list"
+                field:
+                  name: "value"
+                  label: "Valeur"
+                  widget: "string"
+                required: false
+              - label: "Niveaux de développement / Stades (tags)"
+                name: "niveauDeveloppement"
+                widget: "list"
+                field:
+                  name: "value"
+                  label: "Valeur"
+                  widget: "string"
+                required: false
+              - label: "Types d'entreprises cibles (tags)"
+                name: "typeEntreprise"
+                widget: "list"
+                field:
+                  name: "value"
+                  label: "Valeur"
+                  widget: "string"
+                required: false
+              - label: "Critères spécifiques à l'entreprise"
+                name: "criteresEntreprise"
+                widget: "text"
+                required: false
+              - label: "Phases du projet (filtre principal)"
+                name: "phasesProjet"
+                widget: "select"
+                multiple: true
+                options:
+                  - "FAIRE EMERGER SON PROJET"
+                  - "ETRE ACCOMPAGNE(E)"
+                  - "FINANCER SON PROJET"
+                  - "ETRE ACCELERE"
+                  - "SE DEVELOPPER"

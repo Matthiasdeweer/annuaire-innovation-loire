@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administration - Annuaire Innovation Loire</title>
+  </head>
+  <body>
+    <!-- Inclusion du script Decap CMS dans le body comme recommandé officiellement -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      // Sécurité anti-suppression MEP au niveau du CMS
+      CMS.registerEventListener({
+        name: 'preSave',
+        handler: ({ entry }) => {
+          const programmes = entry.getIn(['data', 'programmes']);
+          if (!programmes) return;
+
+          // Vérifier si le programme MEP est présent
+          const hasMep = programmes.some(p => {
+            const id = p.get('id');
+            const struct = p.get('structureOperante') || '';
+            return id === 'mep-junior-enterprise' || 
+                   struct.toLowerCase().includes('mep') || 
+                   struct.toLowerCase().includes('mines etudes');
+          });
+
+          // Si MEP est manquant (supprimé par l'utilisateur), on le restaure silencieusement
+          if (!hasMep) {
+            alert("Sécurité : Le programme de Mines Études et Projets (MEP) ne peut pas être supprimé. Il a été automatiquement restauré en haut de liste.");
+            
+            const mepMap = window.Immutable.fromJS({
+              id: "mep-junior-enterprise",
+              nomProgramme: "Prestations d'études et de développement informatique",
+              structureOperante: "Mines Études et Projets (MEP)",
+              adherentFrenchTech: false,
+              logo: "/logo_MEP_blanc_vec.svg",
+              finalite: "Accompagner les créateurs d'entreprise et les structures dans leurs développements techniques, informatiques et stratégiques.",
+              descriptionAccompagnement: "MEP, la Junior-Entreprise des Mines de Saint-Étienne, réalise des prestations sur mesure : développement d'applications mobiles et sites web, études d'ingénierie, et études de marché. Idéal pour matérialiser vos idées et tester votre marché.",
+              periodicite: "Disponible toute l'année",
+              duree: "Sur mesure (selon le cahier des charges)",
+              typeAccompagnement: "Accompagnement individuel",
+              mentoringPropose: false,
+              posteTravailPropose: false,
+              lieuAccueil: "158 Cours Fauriel, 42100 Saint-Étienne",
+              codePostal: "42100",
+              modalitesContractuelles: "Prestation de services sur devis (tarifs Junior-Entreprise avantageux).",
+              aidesFinancieres: "non concerné",
+              contactMail: "contact@mep-je.fr",
+              siteWeb: "https://mep-je.fr",
+              lienRdvFT: "",
+              criteresEntrepreneur: ["Tous publics", "Créateurs", "PME", "Start-ups"],
+              niveauDeveloppement: ["Amorçage", "Création", "Développement", "Accélération"],
+              typeEntreprise: ["Tous types"],
+              criteresEntreprise: "non concerné",
+              phasesProjet: ["ETRE ACCOMPAGNE(E)", "SE DEVELOPPER"],
+              latitude: 45.4309,
+              longitude: 4.4003
+            });
+
+            // Ré-injecter au début de la liste des programmes
+            const updatedProgrammes = programmes.insert(0, mepMap);
+            return entry.setIn(['data', 'programmes'], updatedProgrammes);
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
