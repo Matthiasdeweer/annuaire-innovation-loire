@@ -2,7 +2,8 @@ backend:
   name: github
   repo: Matthiasdeweer/annuaire-innovation-loire
   branch: main
-  auth_endpoint: https://annuaire-oauth-demo.matthias-deweer05.workers.dev/auth
+  base_url: https://annuaire-oauth-demo.matthias-deweer05.workers.dev
+  auth_endpoint: auth
 
 local_backend: false
 
