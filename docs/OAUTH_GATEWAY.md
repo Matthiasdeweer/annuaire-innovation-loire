@@ -94,31 +94,58 @@ export default {
 
 function renderResponse(status, content) {
   if (status === "success") {
-    return `<!DOCTYPE html><html><head><title>Authentification Réussie</title></head><body><p>Connexion réussie ! Fermeture...</p><script>
-      (function(){
-        try {
-          if (window.opener) {
-            window.opener.postMessage("authorization:github:success:" + JSON.stringify({token: "${content.token}", provider: "${content.provider}"}), "*");
+    return `<!DOCTYPE html><html><head><title>Authentification Réussie</title></head><body>
+      <p style="color: green; font-weight: bold;">Connexion réussie !</p>
+      <p>Finalisation de la connexion avec l'annuaire...</p>
+      <script>
+        (function() {
+          function receiveMessage(e) {
+            if (e.data === "authorizing:github") {
+              window.opener.postMessage(
+                "authorization:github:success:" + JSON.stringify({token: "${content.token}", provider: "${content.provider}"}),
+                e.origin
+              );
+              window.removeEventListener("message", receiveMessage, false);
+              window.close();
+            }
           }
-        } catch(e) {
-          console.error("Erreur de communication avec le site principal:", e);
-        }
-        window.close();
-      })();
-    </script></body></html>`;
+
+          window.addEventListener("message", receiveMessage, false);
+          
+          if (window.opener) {
+            // Étape 1 du Handshake Decap CMS : Signaler qu'on est prêt
+            window.opener.postMessage("authorizing:github", "*");
+          }
+        })();
+      </script>
+    </body></html>`;
   } else {
-    return `<!DOCTYPE html><html><head><title>Erreur</title></head><body><p style="color:red;">Erreur : ${content.message}</p><script>
-      (function(){
-        try {
-          if (window.opener) {
-            window.opener.postMessage("authorization:github:error:${content.message}", "*");
+    return `<!DOCTYPE html><html><head><title>Erreur</title></head><body>
+      <p style="color: red; font-weight: bold;">Échec de la connexion</p>
+      <p>${content.message}</p>
+      <script>
+        (function() {
+          function receiveMessage(e) {
+            if (e.data === "authorizing:github") {
+              window.opener.postMessage(
+                "authorization:github:error:${content.message}",
+                e.origin
+              );
+              window.removeEventListener("message", receiveMessage, false);
+              window.close();
+            }
           }
-        } catch(e) {
-          console.error("Erreur de communication avec le site principal:", e);
-        }
-        window.close();
-      })();
-    </script></body></html>`;
+
+          window.addEventListener("message", receiveMessage, false);
+          
+          if (window.opener) {
+            window.opener.postMessage("authorizing:github", "*");
+          } else {
+            window.close();
+          }
+        })();
+      </script>
+    </body></html>`;
   }
 }
 ```
