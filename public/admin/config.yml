@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: BusEntreprendre/annuaire-innovation
+  repo: Matthiasdeweer/annuaire-innovation-loire
   branch: main
   auth_endpoint: https://decap-oauth.votre-compte.workers.dev/auth # À remplacer par le Worker Cloudflare
 
