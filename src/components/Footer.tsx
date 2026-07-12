@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
             title="Mines Études et Projets (MEP) - Junior-Entreprise"
           >
             <img 
-              src="/logo_MEP_blanc_vec.svg" 
+              src={`${import.meta.env.BASE_URL || "/"}logo_MEP_blanc_vec.svg`} 
               alt="Logo Mines Études et Projets" 
               className="h-10 w-auto object-contain"
             />
@@ -25,19 +25,28 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Lien discret vers la MIFE à droite */}
+        {/* Liens à droite */}
         <div className="text-center md:text-right text-xs space-y-1">
           <p className="font-light text-stone-500">
             Projet réalisé en partenariat avec la MIFE Loire Sud.
           </p>
-          <a
-            href="https://www.mife-loiresud.fr"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-stone-500 hover:text-stone-300 transition-colors underline underline-offset-4 decoration-stone-800 hover:decoration-stone-500"
-          >
-            Aller sur le site de la MIFE
-          </a>
+          <div className="flex justify-center md:justify-end gap-3 text-stone-500">
+            <a
+              href="https://www.mife-loiresud.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-stone-300 transition-colors underline underline-offset-4 decoration-stone-800 hover:decoration-stone-500"
+            >
+              Aller sur le site de la MIFE
+            </a>
+            <span>•</span>
+            <a
+              href={`${import.meta.env.BASE_URL || "/"}admin/index.html`}
+              className="hover:text-stone-300 transition-colors underline underline-offset-4 decoration-stone-800 hover:decoration-stone-500 font-medium"
+            >
+              Espace Admin
+            </a>
+          </div>
         </div>
       </div>
     </footer>

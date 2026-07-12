@@ -7,6 +7,14 @@ interface ActeurCardProps {
   onViewDetails: (programme: Programme) => void;
 }
 
+const resolveLogoUrl = (logoPath: string) => {
+  if (!logoPath) return "";
+  if (logoPath.startsWith("http")) return logoPath;
+  const base = import.meta.env.BASE_URL || "/";
+  const cleanBase = base.endsWith("/") ? base.slice(0, -1) : base;
+  return `${cleanBase}${logoPath}`;
+};
+
 export const ActeurCard: React.FC<ActeurCardProps> = ({ programme, onViewDetails }) => {
   // Raccourcir la finalité pour l'affichage de la carte
   const shortFinalite =
@@ -42,7 +50,7 @@ export const ActeurCard: React.FC<ActeurCardProps> = ({ programme, onViewDetails
           <div className="w-12 h-12 flex-shrink-0 border border-stone-100 flex items-center justify-center bg-stone-50 text-stone-600 text-sm font-semibold">
             {programme.logo ? (
               <img
-                src={programme.logo}
+                src={resolveLogoUrl(programme.logo)}
                 alt={`Logo ${programme.structureOperante}`}
                 className="w-full h-full object-contain p-1"
                 style={

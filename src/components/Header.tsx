@@ -14,7 +14,7 @@ export const Header: React.FC = () => {
             Made by MEP
           </span>
           <img 
-            src="/logo_MEP_blanc_vec.svg" 
+            src={`${import.meta.env.BASE_URL || "/"}logo_MEP_blanc_vec.svg`} 
             alt="Logo MEP" 
             className="h-5 w-auto object-contain transition-opacity duration-150 group-hover:opacity-100 opacity-70"
             style={{ filter: "brightness(0)" }}
