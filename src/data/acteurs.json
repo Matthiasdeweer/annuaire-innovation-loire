@@ -4818,14 +4818,14 @@
       "lieuAccueil": "",
       "descriptionAccompagnement": "",
       "adherentFrenchTech": false,
-      "logo": "",
+      "logo": "https://www.mifeloiresud.com/wp-content/uploads/2024/09/Logo-MIFE-Loire-sud-contour-blanc-300x300.png",
       "latitude": 45.443732678585064,
       "lienRdvFT": "",
       "siteWeb": "",
       "criteresEntrepreneur": [],
       "longitude": 4.383563115488764,
       "aidesFinancieres": "",
-      "nomProgramme": "Carrefour de l4entrepneuriat",
+      "nomProgramme": "Carrefour de l'entrepreneuriat",
       "criteresEntreprise": "",
       "posteTravailPropose": false,
       "niveauDeveloppement": [],
@@ -4836,7 +4836,7 @@
       "id": "carrefour-de-l4entrepneuriat-123",
       "mentoringPropose": true,
       "periodicite": "",
-      "structureOperante": "Mife Loire Sud"
+      "structureOperante": "MIFE Loire Sud"
     },
     {
       "duree": "Sur mesure (selon le cahier des charges)",
