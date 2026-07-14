@@ -4081,7 +4081,7 @@
         "Au moins un des fondateurs ou une des fondatrices doit être étudiant à OMNES ou ancien étudiant OMNES"
       ],
       "longitude": 4.8386415332841315,
-      "aidesFinancieres": "sur demande et sous réserve d'être validé par l'incubateur, une aide peut être accordée.",
+      "aidesFinancieres": "Sur demande et sous réserve d'être validé par l'incubateur, une aide peut être accordée.",
       "nomProgramme": "La Fabrik",
       "criteresEntreprise": "Pas de contrainte. Tout type de projet accepté.",
       "posteTravailPropose": true,
@@ -4094,7 +4094,7 @@
       "typeEntreprise": [
         "Pas de contrainte"
       ],
-      "modalitesContractuelles": "gratuit",
+      "modalitesContractuelles": "Gratuit",
       "contactMail": "incubateur.lyon@omneseducation.com",
       "codePostal": "69007",
       "id": "la-fabrik-103",
