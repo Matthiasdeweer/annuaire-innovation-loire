@@ -1051,7 +1051,7 @@
       "structureOperante": "Le Vinatier - Psychiatrie Universitaire Lyon Métropole, la Fondation ARHM et l'Adapei 69"
     },
     {
-      "duree": "10 mois",
+      "duree": "9 mois (de mars à novembre)",
       "phasesProjet": [
         "ETRE ACCOMPAGNE(E)",
         "SE DEVELOPPER"
@@ -1061,7 +1061,7 @@
       "lieuAccueil": "Lyon",
       "descriptionAccompagnement": "Accompagnement en collectif (ateliers, codev, masterclass...) et en individuel (mentorat, sur mesure), communication digitale et présence sur des salons",
       "adherentFrenchTech": true,
-      "logo": "/uploads/logo-orange.png",
+      "logo": "https://bpifrance-creation.fr/sites/default/files/Bandeau-2024-_Instagram-1080x1080-illustration.png",
       "latitude": 45.44138504290011,
       "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/orange",
       "siteWeb": "https://www.linkedin.com/showcase/femmes-entrepreneuses/posts/?feedView=all",
@@ -1085,7 +1085,7 @@
       "codePostal": "",
       "id": "orange-femmes-entrepreneuses-accompagnement-a-lentreprenuriat-feminin-dans-la-tech-26",
       "mentoringPropose": true,
-      "periodicite": "accompagnement environ mars à novembre, appel à candidature en fin d'année précédant l'accompagnement",
+      "periodicite": "Appel à candidature en fin d'année précédant l'accompagnement",
       "structureOperante": "Orange"
     },
     {
