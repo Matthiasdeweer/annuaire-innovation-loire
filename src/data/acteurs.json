@@ -4785,7 +4785,7 @@
       ],
       "finalite": "",
       "typeAccompagnement": "Accompagnement collectif et individuel",
-      "lieuAccueil": "",
+      "lieuAccueil": "18 Av. Augustin Dupré, 42000 Saint-Étienne",
       "descriptionAccompagnement": "",
       "adherentFrenchTech": false,
       "logo": "https://www.mifeloiresud.com/wp-content/uploads/2024/09/Logo-MIFE-Loire-sud-contour-blanc-300x300.png",
@@ -4802,11 +4802,11 @@
       "typeEntreprise": [],
       "modalitesContractuelles": "",
       "contactMail": "",
-      "codePostal": "",
+      "codePostal": "42000",
       "id": "citeslab-2-122",
       "mentoringPropose": false,
       "periodicite": "",
-      "structureOperante": "Mife Loire Sud"
+      "structureOperante": "MIFE Loire Sud"
     },
     {
       "duree": "Sans date de fin",
