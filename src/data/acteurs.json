@@ -350,6 +350,43 @@
       "structureOperante": "Campus René Cassin"
     },
     {
+      "duree": "Sans date de fin",
+      "phasesProjet": [
+        "ETRE ACCOMPAGNE(E)",
+        "SE DEVELOPPER"
+      ],
+      "finalite": "Développer son activité : développement commercial, gestion, innovation, numérique, ressources humaines, métiers d'arts, métiers de l'alimentaire, environnement...",
+      "typeAccompagnement": "Accompagnement individuel",
+      "lieuAccueil": "Lyon - Villefranche - Saint Etienne - Roanne.. Ou en distanciel (toutes les agences de la CMA)",
+      "descriptionAccompagnement": "Accompagnement individuel (1h à 1 journée selon les thématiques)",
+      "adherentFrenchTech": false,
+      "logo": "/uploads/logo-chambre-de-metiers-et-de-lartisanat-auvergne-rhone-alpes.png",
+      "latitude": 45.44270809720657,
+      "lienRdvFT": "Non concerné",
+      "siteWeb": "https://www.cma-auvergnerhonealpes.fr/gerer-et-developper/",
+      "criteresEntrepreneur": [
+        "Etre artisan"
+      ],
+      "longitude": 4.38246026160598,
+      "aidesFinancieres": "Non concerné",
+      "nomProgramme": "Accompagnement et coaching",
+      "criteresEntreprise": "Etre installé",
+      "posteTravailPropose": false,
+      "niveauDeveloppement": [
+        "Développement"
+      ],
+      "typeEntreprise": [
+        "Activités artisanales"
+      ],
+      "modalitesContractuelles": "Accompagnement pris en charge à 100%",
+      "contactMail": "contact@cma-auvergnerhonealpes.fr",
+      "codePostal": "",
+      "id": "accompagnement-et-coaching-93",
+      "mentoringPropose": false,
+      "periodicite": "Tout au long de l'année",
+      "structureOperante": "Chambre de Métiers et de l'Artisanat Auvergne Rhône-Alpes"
+    },
+    {
       "duree": "4 mois",
       "phasesProjet": [
         "FAIRE EMERGER SON PROJET",
@@ -1413,7 +1450,7 @@
       "id": "plateformes-dinnovation-des-hospices-civils-de-lyon-35",
       "mentoringPropose": false,
       "periodicite": "En continu",
-      "structureOperante": "Hospices Civils de Lyon (CHU de Lyon - 2ème CHU de France)"
+      "structureOperante": "Hospices Civils de Lyon - CHU de Lyon"
     },
     {
       "duree": "Sans date de fin",
@@ -3631,6 +3668,44 @@
       "structureOperante": "Chambre de Métiers et de l'Artisanat Auvergne Rhône-Alpes"
     },
     {
+      "duree": "12 mois",
+      "phasesProjet": [
+        "ETRE ACCELERE",
+        "ETRE ACCOMPAGNE(E)",
+        "SE DEVELOPPER"
+      ],
+      "finalite": "Accompagnement de l’Etat dédié aux startups françaises les plus performantes et en capacité de devenir des leaders technologiques de rang mondial. Les 120 startups du programme sont sélectionnées sur des critères de performance économique (levée de fonds ou hypercroissance des revenus).",
+      "typeAccompagnement": "Accompagnement collectif et individuel",
+      "lieuAccueil": "Non concerné",
+      "descriptionAccompagnement": "Un appui et des conseils personnalisés proposés par les partenaires publics en France et à l’international Des actions de visibilité en France et à l’international Des mises en relation avec des grands comptes publics et privés Des actions spécifiques en fonction des enjeux individuels de chaque entreprise Des partages d’expérience et des rencontres entre pairs et avec des décideurs",
+      "adherentFrenchTech": true,
+      "logo": "/uploads/logo-la-french-tech-saint-etienne-lyon.png",
+      "latitude": 45.441573828757406,
+      "lienRdvFT": "Non concerné",
+      "siteWeb": "https://www.lafrenchtech-stl.com/programme/french-tech-next40-120/",
+      "criteresEntrepreneur": [],
+      "longitude": 4.38641174611504,
+      "aidesFinancieres": "Non concerné",
+      "nomProgramme": "French Tech Next40/120",
+      "criteresEntreprise": "Pour le French Tech Next40 : avoir le statut de licorne ou avoir réalisé une levée de fonds d’au moins 100 millions € Pour le volet « levées de fonds » du French Tech 120 : avoir réalisé, une levée de fonds d’au moins 40 millions d’euros. Pour le volet « hyper-croissance » du French Tech 120 : avoir réalisé un chiffre d’affaires d’au moins 10 millions € lors du dernier exercice fiscal clôturé et témoigner d’une croissance moyenne d’au moins 25 % lors des trois derniers exercices clôturés.",
+      "posteTravailPropose": false,
+      "niveauDeveloppement": [
+        "Accélération"
+      ],
+      "typeEntreprise": [
+        "Le volet « levées de fonds » du French Tech 120 permet notamment de sélectionner des start-up DeepTech et/ou industrielles",
+        "qui ont besoin de financements importants pour soutenir leur recherche et développement et/ou leur site industriel",
+        "sans avoir pour l’instant de revenus dans les premières années."
+      ],
+      "modalitesContractuelles": "gratuit",
+      "contactMail": "contact@lafrenchtech-stl.com",
+      "codePostal": "",
+      "id": "french-tech-next40120-96",
+      "mentoringPropose": false,
+      "periodicite": "une promotion par an",
+      "structureOperante": "La French Tech Saint-Etienne Lyon"
+    },
+    {
       "duree": "Sans date de fin",
       "phasesProjet": [
         "ETRE ACCOMPAGNE(E)",
@@ -3665,43 +3740,6 @@
       "contactMail": "contact@cma-auvergnerhonealpes.fr",
       "codePostal": "",
       "id": "lancer-votre-entreprise-avec-succes-92",
-      "mentoringPropose": false,
-      "periodicite": "Tout au long de l'année",
-      "structureOperante": "Chambre de Métiers et de l'Artisanat Auvergne Rhône-Alpes"
-    },
-    {
-      "duree": "Sans date de fin",
-      "phasesProjet": [
-        "ETRE ACCOMPAGNE(E)",
-        "SE DEVELOPPER"
-      ],
-      "finalite": "Développer son activité : développement commercial, gestion, innovation, numérique, ressources humaines, métiers d'arts, métiers de l'alimentaire, environnement...",
-      "typeAccompagnement": "Accompagnement individuel",
-      "lieuAccueil": "Lyon - Villefranche - Saint Etienne - Roanne.. Ou en distanciel (toutes les agences de la CMA)",
-      "descriptionAccompagnement": "Accompagnement individuel (1h à 1 journée selon les thématiques)",
-      "adherentFrenchTech": false,
-      "logo": "/uploads/logo-chambre-de-metiers-et-de-lartisanat-auvergne-rhone-alpes.png",
-      "latitude": 45.44270809720657,
-      "lienRdvFT": "Non concerné",
-      "siteWeb": "https://www.cma-auvergnerhonealpes.fr/gerer-et-developper/",
-      "criteresEntrepreneur": [
-        "Etre artisan"
-      ],
-      "longitude": 4.38246026160598,
-      "aidesFinancieres": "Non concerné",
-      "nomProgramme": "Accompagnement et coaching",
-      "criteresEntreprise": "Etre installé",
-      "posteTravailPropose": false,
-      "niveauDeveloppement": [
-        "Développement"
-      ],
-      "typeEntreprise": [
-        "Activités artisanales"
-      ],
-      "modalitesContractuelles": "Accompagnement pris en charge à 100%",
-      "contactMail": "contact@cma-auvergnerhonealpes.fr",
-      "codePostal": "",
-      "id": "accompagnement-et-coaching-93",
       "mentoringPropose": false,
       "periodicite": "Tout au long de l'année",
       "structureOperante": "Chambre de Métiers et de l'Artisanat Auvergne Rhône-Alpes"
@@ -3780,44 +3818,6 @@
       "id": "scale-up-excellence-95",
       "mentoringPropose": false,
       "periodicite": "une promotion par an : Appel A Candidatures entre mars et avril lancement en juin",
-      "structureOperante": "La French Tech Saint-Etienne Lyon"
-    },
-    {
-      "duree": "12 mois",
-      "phasesProjet": [
-        "ETRE ACCELERE",
-        "ETRE ACCOMPAGNE(E)",
-        "SE DEVELOPPER"
-      ],
-      "finalite": "Accompagnement de l’Etat dédié aux startups françaises les plus performantes et en capacité de devenir des leaders technologiques de rang mondial. Les 120 startups du programme sont sélectionnées sur des critères de performance économique (levée de fonds ou hypercroissance des revenus).",
-      "typeAccompagnement": "Accompagnement collectif et individuel",
-      "lieuAccueil": "Non concerné",
-      "descriptionAccompagnement": "Un appui et des conseils personnalisés proposés par les partenaires publics en France et à l’international Des actions de visibilité en France et à l’international Des mises en relation avec des grands comptes publics et privés Des actions spécifiques en fonction des enjeux individuels de chaque entreprise Des partages d’expérience et des rencontres entre pairs et avec des décideurs",
-      "adherentFrenchTech": true,
-      "logo": "/uploads/logo-la-french-tech-saint-etienne-lyon.png",
-      "latitude": 45.441573828757406,
-      "lienRdvFT": "Non concerné",
-      "siteWeb": "https://www.lafrenchtech-stl.com/programme/french-tech-next40-120/",
-      "criteresEntrepreneur": [],
-      "longitude": 4.38641174611504,
-      "aidesFinancieres": "Non concerné",
-      "nomProgramme": "French Tech Next40/120",
-      "criteresEntreprise": "Pour le French Tech Next40 : avoir le statut de licorne ou avoir réalisé une levée de fonds d’au moins 100 millions € Pour le volet « levées de fonds » du French Tech 120 : avoir réalisé, une levée de fonds d’au moins 40 millions d’euros. Pour le volet « hyper-croissance » du French Tech 120 : avoir réalisé un chiffre d’affaires d’au moins 10 millions € lors du dernier exercice fiscal clôturé et témoigner d’une croissance moyenne d’au moins 25 % lors des trois derniers exercices clôturés.",
-      "posteTravailPropose": false,
-      "niveauDeveloppement": [
-        "Accélération"
-      ],
-      "typeEntreprise": [
-        "Le volet « levées de fonds » du French Tech 120 permet notamment de sélectionner des start-up DeepTech et/ou industrielles",
-        "qui ont besoin de financements importants pour soutenir leur recherche et développement et/ou leur site industriel",
-        "sans avoir pour l’instant de revenus dans les premières années."
-      ],
-      "modalitesContractuelles": "gratuit",
-      "contactMail": "contact@lafrenchtech-stl.com",
-      "codePostal": "",
-      "id": "french-tech-next40120-96",
-      "mentoringPropose": false,
-      "periodicite": "une promotion par an",
       "structureOperante": "La French Tech Saint-Etienne Lyon"
     },
     {
