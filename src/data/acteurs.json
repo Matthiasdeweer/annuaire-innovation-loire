@@ -1422,7 +1422,7 @@
       "lieuAccueil": "non concerné",
       "descriptionAccompagnement": "Accompagnement sur mesure. Etude de faisabilité, co-développement, test en situation simulée, expérimentation en vie réelle ...",
       "adherentFrenchTech": false,
-      "logo": "/uploads/logo-hospices-civils-de-lyon-chu-de-lyon-2eme-chu-de-france.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/LogoHCL.jpg",
       "latitude": 45.43557732219488,
       "lienRdvFT": "non concerné",
       "siteWeb": "innov.hcl.fr",
