@@ -1,4 +1,5 @@
 import React from "react";
+import { PHASE_COLORS } from "../utils/phaseColors";
 
 interface PhasesTabsProps {
   activePhase: string;
@@ -21,13 +22,22 @@ export const PhasesTabs: React.FC<PhasesTabsProps> = ({ activePhase, onChangePha
         <nav className="flex space-x-1 md:space-x-4 overflow-x-auto scrollbar-none py-3" aria-label="Phases du projet">
           {PHASES.map((phase) => {
             const isActive = activePhase === phase.id;
+            const phaseInfo = PHASE_COLORS[phase.id];
+            
+            const activeStyle = isActive
+              ? phaseInfo
+                ? { borderColor: phaseInfo.color, color: phaseInfo.color }
+                : { borderColor: "#1c1917", color: "#1c1917" }
+              : {};
+
             return (
               <button
                 key={phase.id}
                 onClick={() => onChangePhase(phase.id)}
+                style={activeStyle}
                 className={`whitespace-nowrap px-4 py-2 text-sm font-medium transition-all duration-150 border-b-2 flex-shrink-0 ${
                   isActive
-                    ? "border-stone-900 text-stone-900 font-semibold"
+                    ? "font-semibold"
                     : "border-transparent text-stone-500 hover:text-stone-900 hover:border-stone-200"
                 }`}
               >

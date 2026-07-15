@@ -2,6 +2,7 @@ import React from "react";
 import { ActeurCard } from "./ActeurCard";
 import type { Programme } from "../hooks/useActeursFilter";
 import { AlertCircle, ArrowRight } from "lucide-react";
+import { PHASE_COLORS } from "../utils/phaseColors";
 
 interface ActeursGridProps {
   programmes: Programme[];
@@ -52,21 +53,29 @@ export const ActeursGrid: React.FC<ActeursGridProps> = ({
           </h3>
           <div className="flex flex-wrap justify-center gap-6">
             {SECTIONS.map((section) => {
-              // Compter le nombre de programmes pour cette phase
               const count = programmes.filter((p) => p.phasesProjet.includes(section.id)).length;
+              const phaseInfo = PHASE_COLORS[section.id];
               return (
                 <button
                   key={section.id}
                   onClick={() => onChangePhase(section.id)}
-                  className="flex flex-col items-center p-6 border border-stone-200 bg-white hover:border-stone-900 transition-colors w-40 text-center cursor-pointer group"
+                  className="flex flex-col items-center pt-6 pb-7 px-6 border border-stone-200 bg-white hover:border-stone-400 transition-all w-40 text-center cursor-pointer group relative overflow-hidden rounded-sm shadow-sm hover:shadow-md duration-200"
                 >
-                  <span className="font-serif text-2xl text-stone-300 group-hover:text-stone-900 transition-colors mb-2">
+                  {/* Bande colorée en bas correspondant à la phase du projet */}
+                  <div 
+                    className="absolute bottom-0 left-0 right-0 h-1.5"
+                    style={phaseInfo ? { backgroundColor: phaseInfo.color } : {}}
+                  />
+                  <span 
+                    className="font-serif text-2xl mb-1"
+                    style={phaseInfo ? { color: phaseInfo.color } : { color: "#d6d3d1" }}
+                  >
                     {section.num}
                   </span>
-                  <span className="text-xs font-semibold uppercase tracking-wider text-stone-800 line-clamp-2 h-8 flex items-center justify-center leading-snug">
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-stone-800 line-clamp-2 h-8 flex items-center justify-center leading-snug">
                     {section.label}
                   </span>
-                  <span className="mt-3 text-[10px] text-stone-500 font-mono">
+                  <span className="mt-3 text-[9px] text-stone-400 font-semibold tracking-wider uppercase">
                     {count} programme{count > 1 ? "s" : ""}
                   </span>
                 </button>
@@ -80,6 +89,7 @@ export const ActeursGrid: React.FC<ActeursGridProps> = ({
           {SECTIONS.map((section) => {
             const sectionProgrammes = programmes.filter((p) => p.phasesProjet.includes(section.id));
             const previewProgrammes = sectionProgrammes.slice(0, 3); // Top 3 seulement
+            const phaseInfo = PHASE_COLORS[section.id];
 
             if (previewProgrammes.length === 0) return null;
 
@@ -87,7 +97,10 @@ export const ActeursGrid: React.FC<ActeursGridProps> = ({
               <div key={section.id} className="border-t border-stone-200 pt-10">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 mb-8">
                   <div>
-                    <span className="font-serif text-stone-300 text-lg block mb-1">
+                    <span 
+                      className="font-serif text-lg block mb-1"
+                      style={phaseInfo ? { color: phaseInfo.color } : { color: "#d6d3d1" }}
+                    >
                       Phase {section.num}
                     </span>
                     <h3 className="font-serif text-2xl md:text-3xl text-stone-950 font-normal">
@@ -122,12 +135,20 @@ export const ActeursGrid: React.FC<ActeursGridProps> = ({
 
   // Cas 2 : Une phase sélectionnée ou filtres de recherche actifs
   // On affiche la grille simple complète des programmes correspondants
+  const activePhaseInfo = PHASE_COLORS[activePhase];
+
   return (
     <div className="max-w-7xl mx-auto px-6 py-12">
       {activePhase !== "ALL" && (
-        <div className="mb-8 border-b border-stone-200 pb-4">
+        <div 
+          className="mb-8 border-b pb-4"
+          style={activePhaseInfo ? { borderBottomColor: activePhaseInfo.color, borderBottomWidth: "2px" } : {}}
+        >
           <span className="font-serif text-stone-400 text-sm">Étape sélectionnée</span>
-          <h2 className="font-serif text-3xl text-stone-950 font-normal">
+          <h2 
+            className="font-serif text-3xl font-normal"
+            style={activePhaseInfo ? { color: activePhaseInfo.color } : { color: "#0c0a09" }}
+          >
             {SECTIONS.find((s) => s.id === activePhase)?.label || activePhase}
           </h2>
         </div>

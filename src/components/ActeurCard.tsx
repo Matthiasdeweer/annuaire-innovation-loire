@@ -1,6 +1,7 @@
 import React from "react";
 import { MapPin, ArrowUpRight } from "lucide-react";
 import type { Programme } from "../hooks/useActeursFilter";
+import { PHASE_COLORS } from "../utils/phaseColors";
 
 interface ActeurCardProps {
   programme: Programme;
@@ -78,18 +79,31 @@ export const ActeurCard: React.FC<ActeurCardProps> = ({ programme, onViewDetails
       <div>
         {/* Badges / Tags */}
         <div className="flex flex-wrap gap-1.5 mb-6">
+          {programme.phasesProjet && programme.phasesProjet.map((phaseId) => {
+            const info = PHASE_COLORS[phaseId];
+            if (!info) return null;
+            return (
+              <span 
+                key={phaseId} 
+                className="px-2 py-0.5 text-[9px] font-semibold uppercase tracking-wider rounded-sm border border-transparent"
+                style={{ backgroundColor: info.bgLight, color: info.text }}
+              >
+                {info.label}
+              </span>
+            );
+          })}
           {programme.adherentFrenchTech && (
-            <span className="px-2 py-0.5 border border-stone-900 text-stone-900 text-[10px] font-semibold uppercase tracking-wider bg-stone-50">
+            <span className="px-2 py-0.5 border border-stone-900 text-stone-900 text-[10px] font-semibold uppercase tracking-wider bg-stone-50 rounded-sm">
               FT Member
             </span>
           )}
           {programme.typeAccompagnement && (
-            <span className="px-2 py-0.5 border border-stone-200 text-stone-600 text-[10px] font-medium bg-stone-50">
+            <span className="px-2 py-0.5 border border-stone-200 text-stone-600 text-[10px] font-medium bg-stone-50 rounded-sm">
               {programme.typeAccompagnement}
             </span>
           )}
           {programme.codePostal && (
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 border border-stone-200 text-stone-600 text-[10px] font-medium bg-stone-50">
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 border border-stone-200 text-stone-600 text-[10px] font-medium bg-stone-50 rounded-sm">
               <MapPin className="h-2.5 w-2.5" />
               {programme.codePostal.startsWith("42") ? "Loire (42)" : "Rhône (69)"}
             </span>
