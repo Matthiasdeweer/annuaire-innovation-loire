@@ -977,7 +977,7 @@
       "lieuAccueil": "Pépinière d'entreprise possible",
       "descriptionAccompagnement": "- Prestation juridique - Prestation stratégie et analyse financière - Financement POC - Financement développement - Welcom Pack Design - Fonds Enseignement Supérieur Recherche (financement labo) - Fonds d'investissement - Formation au pitch",
       "adherentFrenchTech": true,
-      "logo": "/uploads/logo-saint-etienne-metropole.png",
+      "logo": "https://www.saint-etienne-metropole.fr/themes/custom/sem/img/logo.png",
       "latitude": 45.43698559413307,
       "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/saint-etienne-metropole",
       "siteWeb": "https://eco.saint-etienne-metropole.fr/new-innovation/",
