@@ -41,6 +41,46 @@
       "duree": "12 mois",
       "phasesProjet": [
         "ETRE ACCOMPAGNE(E)",
+        "FAIRE EMERGER SON PROJET"
+      ],
+      "finalite": "Programme de mentorat : Création de binômes mentor / mentoré pour favoriser l’échange de bonnes pratiques et la transmission de valeurs communes autour de l’entrepreneuriat.",
+      "typeAccompagnement": "Accompagnement individuel",
+      "lieuAccueil": "60 avenue Jean Mermoz 69008 Lyon",
+      "descriptionAccompagnement": "12 mois rendez-vous individuels avec son mentor une fois par mois + ateliers collectifs ponctuels.",
+      "adherentFrenchTech": false,
+      "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQENSb0qDQvmug/company-logo_200_200/company-logo_200_200/0/1630655935983/medef_auvergne_rhone_alpes_logo?e=2147483647&v=beta&t=05ZH6P1vANyp4y9PzanzVL-QlNzxxX2o-rDub4dqOzw",
+      "latitude": 45.43828198152848,
+      "lienRdvFT": "https://medef-aura.fr/fr/service/crea-duo-parrainage-entre-createurs-dentreprises-et-jeunes-entrepreneurs",
+      "siteWeb": "https://info.medef-aura.fr/parrainage-entre-cr%C3%A9ateurs-dentreprises-et-jeunes-entrepreneurs?hs_preview=StqwdhxF-300587114696",
+      "criteresEntrepreneur": [
+        "Porteurs de projets issus des QPV (Quartiers Prioritaires de la Ville) ou des ZRR (Zones Rurales)",
+        "ou implantés entreprise dans ces zones. accessible à tous les porteurs de projets/entrepreneur de la régon AURA"
+      ],
+      "longitude": 4.384646040453577,
+      "aidesFinancieres": "Non concerné",
+      "nomProgramme": "Créa Duo",
+      "criteresEntreprise": "non immatriculée ou immatriculée depuis moins d’un an",
+      "posteTravailPropose": false,
+      "niveauDeveloppement": [
+        "Idéation",
+        "Création",
+        "Amorçage"
+      ],
+      "typeEntreprise": [
+        "Tout type d'entreprises"
+      ],
+      "modalitesContractuelles": "Accompagnement gratuit",
+      "contactMail": "rsolelhac@medef-aura.fr",
+      "codePostal": "69008",
+      "id": "crea-duo-28",
+      "mentoringPropose": true,
+      "periodicite": "Pas de dates fixes, le mentorat peut être commencé toute l'année.",
+      "structureOperante": "MEDEF Auvergne Rhône Alpes"
+    },
+    {
+      "duree": "12 mois",
+      "phasesProjet": [
+        "ETRE ACCOMPAGNE(E)",
         "FAIRE EMERGER SON PROJET",
         "SE DEVELOPPER"
       ],
@@ -1125,46 +1165,6 @@
       "id": "le-local-27",
       "mentoringPropose": false,
       "periodicite": "1 promotion par an, débutant en septembre AAC de février à juin",
-      "structureOperante": "MEDEF Auvergne Rhône Alpes"
-    },
-    {
-      "duree": "12 mois",
-      "phasesProjet": [
-        "ETRE ACCOMPAGNE(E)",
-        "FAIRE EMERGER SON PROJET"
-      ],
-      "finalite": "programme de mentorat : Création de binômes mentor / mentoré pour favoriser l’échange de bonnes pratiques et la transmission de valeurs communes autour de l’entrepreneuriat.",
-      "typeAccompagnement": "Accompagnement individuel",
-      "lieuAccueil": "flexible",
-      "descriptionAccompagnement": "12 mois rendez-vous individuels avec son mentor une fois par mois + ateliers collectifs ponctuels.",
-      "adherentFrenchTech": false,
-      "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQENSb0qDQvmug/company-logo_200_200/company-logo_200_200/0/1630655935983/medef_auvergne_rhone_alpes_logo?e=2147483647&v=beta&t=05ZH6P1vANyp4y9PzanzVL-QlNzxxX2o-rDub4dqOzw",
-      "latitude": 45.43828198152848,
-      "lienRdvFT": "non concerné",
-      "siteWeb": "https://info.medef-aura.fr/parrainage-entre-cr%C3%A9ateurs-dentreprises-et-jeunes-entrepreneurs?hs_preview=StqwdhxF-300587114696",
-      "criteresEntrepreneur": [
-        "Porteurs de projets issus des QPV (Quartiers Prioritaires de la Ville) ou des ZRR (Zones Rurales)",
-        "ou implantés entreprise dans ces zones. accessible à tous les porteurs de projets/entrepreneur de la régon AURA"
-      ],
-      "longitude": 4.384646040453577,
-      "aidesFinancieres": "non concerné",
-      "nomProgramme": "Créa Duo",
-      "criteresEntreprise": "non immatriculée ou immatriculée depuis moins d’un an",
-      "posteTravailPropose": false,
-      "niveauDeveloppement": [
-        "Idéation",
-        "Création",
-        "Amorçage"
-      ],
-      "typeEntreprise": [
-        "Tout type d'entreprises"
-      ],
-      "modalitesContractuelles": "accompagnement gratuit",
-      "contactMail": "rsolelhac@medef-aura.fr",
-      "codePostal": "",
-      "id": "crea-duo-28",
-      "mentoringPropose": true,
-      "periodicite": "Pas de dates fixes, le mentorat peut être commencé toute l'année.",
       "structureOperante": "MEDEF Auvergne Rhône Alpes"
     },
     {
