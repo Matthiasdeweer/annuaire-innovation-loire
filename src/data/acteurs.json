@@ -1,6 +1,83 @@
 {
   "programmes": [
     {
+      "duree": "Sans date de fin",
+      "phasesProjet": [
+        "ETRE ACCOMPAGNE(E)",
+        "SE DEVELOPPER"
+      ],
+      "finalite": "Développer son activité : développement commercial, gestion, innovation, numérique, ressources humaines, métiers d'arts, métiers de l'alimentaire, environnement...",
+      "typeAccompagnement": "Accompagnement individuel",
+      "lieuAccueil": "Lyon - Villefranche - Saint Etienne - Roanne.. Ou en distanciel (toutes les agences de la CMA)",
+      "descriptionAccompagnement": "Accompagnement individuel (1h à 1 journée selon les thématiques)",
+      "adherentFrenchTech": false,
+      "logo": "/uploads/logo-chambre-de-metiers-et-de-lartisanat-auvergne-rhone-alpes.png",
+      "latitude": 45.44270809720657,
+      "lienRdvFT": "Non concerné",
+      "siteWeb": "https://www.cma-auvergnerhonealpes.fr/gerer-et-developper/",
+      "criteresEntrepreneur": [
+        "Etre artisan"
+      ],
+      "longitude": 4.38246026160598,
+      "aidesFinancieres": "Non concerné",
+      "nomProgramme": "Accompagnement et coaching",
+      "criteresEntreprise": "Etre installé",
+      "posteTravailPropose": false,
+      "niveauDeveloppement": [
+        "Développement"
+      ],
+      "typeEntreprise": [
+        "Activités artisanales"
+      ],
+      "modalitesContractuelles": "Accompagnement pris en charge à 100%",
+      "contactMail": "contact@cma-auvergnerhonealpes.fr",
+      "codePostal": "",
+      "id": "accompagnement-et-coaching-93",
+      "mentoringPropose": false,
+      "periodicite": "Tout au long de l'année",
+      "structureOperante": "Chambre de Métiers et de l'Artisanat Auvergne Rhône-Alpes"
+    },
+    {
+      "duree": "12 mois",
+      "phasesProjet": [
+        "ETRE ACCOMPAGNE(E)",
+        "FAIRE EMERGER SON PROJET",
+        "SE DEVELOPPER"
+      ],
+      "finalite": "challenge et accompagnement de l'émergence et le développement de projets",
+      "typeAccompagnement": "Accompagnement collectif et individuel",
+      "lieuAccueil": "144 avenue Jean Jaurès 69007 Lyon",
+      "descriptionAccompagnement": "24h de mentorat, 25 ateliers collectifs. Dossier de candidature à compléter sur notre site puis entretien et comité de sélection.",
+      "adherentFrenchTech": true,
+      "logo": "/uploads/logo-emlyon-venture-labs.png",
+      "latitude": 45.73532902951512,
+      "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/emlyon-venture-labs",
+      "siteWeb": "https://venturelabs.em-lyon.com/entrepreneur-academy/",
+      "criteresEntrepreneur": [
+        "Au moins un membre de l'équipe doit être étudiant ou diplômé de moins d'un an de l'emlyon business school. Les candidats doivent être les fondateurs ou co-fondateurs."
+      ],
+      "longitude": 4.834474608325421,
+      "aidesFinancieres": "non concerné",
+      "nomProgramme": "Entrepreneur academy",
+      "criteresEntreprise": "non concerné",
+      "posteTravailPropose": false,
+      "niveauDeveloppement": [
+        "Idéation",
+        "Amorçage",
+        "Développement"
+      ],
+      "typeEntreprise": [
+        "tous secteurs"
+      ],
+      "modalitesContractuelles": "compris dans les frais de scolarité",
+      "contactMail": "huber@em-lyon.com",
+      "codePostal": "69007",
+      "id": "entrepreneur-academy-11",
+      "mentoringPropose": true,
+      "periodicite": "pas de date de rentrée, accès tout au long de l'année. Accompagnement jusqu'à un an après la diplomation.",
+      "structureOperante": "emlyon venture labs"
+    },
+    {
       "duree": "12 mois",
       "phasesProjet": [
         "ETRE ACCOMPAGNE(E)",
@@ -232,6 +309,127 @@
       "structureOperante": "Centre d'Entrepreneuriat Lyon Saint-Etienne"
     },
     {
+      "duree": "18 mois",
+      "phasesProjet": [
+        "ETRE ACCOMPAGNE(E)",
+        "FAIRE EMERGER SON PROJET"
+      ],
+      "finalite": "Programme d'incubation réservé aux étudiants et aux diplômés des écoles et centres de formation du Campus René Cassin de Lyon.",
+      "typeAccompagnement": "Accompagnement collectif et individuel",
+      "lieuAccueil": "Campus René Cassin - 7 rue Jean-Marie Leclair - 69009 Lyon",
+      "descriptionAccompagnement": "Du mentorat \nDes mises en lien qualifiées avec un large réseau d’experts \nDes séances de coaching flash \nUn programme d’ateliers collectifs \nDes invitations pour les évènements entrepreneuriat du territoire \nL’expertise des écoles et centres de formation du Campus pour challenger votre projet \nL’accès à la French Tech Saint-Etienne Lyon",
+      "adherentFrenchTech": true,
+      "logo": "https://static.wixstatic.com/media/a1b0a1_6f0cc2249b234beda5e5c36975784c46~mv2.jpg/v1/fill/w_363,h_173,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO__STARTHEP%20_%20Incubateur_CMJN.jpg",
+      "latitude": 45.77470652739116,
+      "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/starthep-campus-rene-cassin",
+      "siteWeb": "Site intenet du Campus René cassin : https://www.campus-renecassin.com/incubateur-starthep",
+      "criteresEntrepreneur": [
+        "Au moins un membre de l'équipe doit être étudiant ou diplômé d'une des écoles du Campus René Cassin. Les candidats doivent être les fondateurs ou co-fondateurs. Etat d’esprit : entraide",
+        "réciprocité",
+        "participation active. Avoir la validation de son école ou centre de formation."
+      ],
+      "longitude": 4.806129797307283,
+      "aidesFinancieres": "non concerné",
+      "nomProgramme": "Incubateur Starthep",
+      "criteresEntreprise": "non concerné",
+      "posteTravailPropose": true,
+      "niveauDeveloppement": [
+        "Idéation",
+        "Amorçage"
+      ],
+      "typeEntreprise": [
+        "Tous types sauf restauration",
+        "BTP et activités réglementées."
+      ],
+      "modalitesContractuelles": "Programme d'accompagnement financé par les écoles du Campus. Gratuit pour les étudiants et diplômés.",
+      "contactMail": "delphine.benzoni@campus-renecassin.com",
+      "codePostal": "69009",
+      "id": "incubateur-starthep-8",
+      "mentoringPropose": true,
+      "periodicite": "Une promotion par an - Appel à candidatures en janvier de chaque année - Début du programme en avril de chaque année",
+      "structureOperante": "Campus René Cassin"
+    },
+    {
+      "duree": "4 mois",
+      "phasesProjet": [
+        "ETRE ACCOMPAGNE(E)",
+        "FAIRE EMERGER SON PROJET"
+      ],
+      "finalite": "Structurer son idée, passer de l'idéation au lancement d'une startup grâce à un programme complet et qualitatif",
+      "typeAccompagnement": "Accompagnement collectif",
+      "lieuAccueil": "2, avenue Tony Garnier 690007 Lyon",
+      "descriptionAccompagnement": "4 mois de formation 1 semaine à l'emlyon Des ateliers collectifs / Masterclass / témoignages inspirants Pas de mentoring ou accompagnement individuel 120h de formation gratuites 1 concours de pitch 2 appels à candidature pour 2 éditions annuelles",
+      "adherentFrenchTech": true,
+      "logo": "https://rdv.lafrenchtech-stl.com/images/configuration/logos/65f4627322b84618522253.png",
+      "latitude": 45.44109378099915,
+      "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/lyon-start-up",
+      "siteWeb": "https://www.lyonstartup.com/",
+      "criteresEntrepreneur": [
+        "Ouvert à toutes et tous",
+        "quels que soitent la profession",
+        "l'âge ou le secteur d'activité envisagé."
+      ],
+      "longitude": 4.383227383545799,
+      "aidesFinancieres": "non concerné",
+      "nomProgramme": "Lyon Start Up",
+      "criteresEntreprise": "antécréation",
+      "posteTravailPropose": false,
+      "niveauDeveloppement": [
+        "Idéation"
+      ],
+      "typeEntreprise": [
+        "Le projet doit être innovant",
+        "peu importe le secteur d'activité"
+      ],
+      "modalitesContractuelles": "Programe entièrement gratuit",
+      "contactMail": "lyonstartup@lafrenchtech-stl.com",
+      "codePostal": "",
+      "id": "lyon-start-up-18",
+      "mentoringPropose": false,
+      "periodicite": "2 éditions annuelles : - Mars à juin : les candidatures se font sur les mois de janvier et février. - Septembre à décembre : les candidatures se font sur les mois de juin et juillet.",
+      "structureOperante": "French Tech St Etienne Lyon"
+    },
+    {
+      "duree": "12 mois",
+      "phasesProjet": [
+        "ETRE ACCELERE",
+        "ETRE ACCOMPAGNE(E)",
+        "SE DEVELOPPER"
+      ],
+      "finalite": "challenge et accompagnement dans la phase de lancement",
+      "typeAccompagnement": "Accompagnement collectif et individuel",
+      "lieuAccueil": "144 avenue Jean Jaurès 69007 Lyon",
+      "descriptionAccompagnement": "24h de mentorat, 4 revues de projet / an, 25 ateliers collectifs, accès à des office-hours. Dossier de candidature à compléter sur notre site puis entretien et comité de sélection.",
+      "adherentFrenchTech": true,
+      "logo": "/uploads/logo-emlyon-venture-labs.png",
+      "latitude": 45.737457856659084,
+      "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/emlyon-venture-labs",
+      "siteWeb": "https://venturelabs.em-lyon.com/mentorat/",
+      "criteresEntrepreneur": [
+        "pas de critère d'âge ou de profil."
+      ],
+      "longitude": 4.841732583439247,
+      "aidesFinancieres": "non concerné",
+      "nomProgramme": "Mentorat",
+      "criteresEntreprise": "non concerné",
+      "posteTravailPropose": true,
+      "niveauDeveloppement": [
+        "Amorçage",
+        "Développement",
+        "Accélération"
+      ],
+      "typeEntreprise": [
+        "tous secteurs"
+      ],
+      "modalitesContractuelles": "Droits d'entrée 1600€HT + cotisation annuelle 1600€HT + 150€/poste/an",
+      "contactMail": "huber@em-lyon.com",
+      "codePostal": "69007",
+      "id": "mentorat-10",
+      "mentoringPropose": true,
+      "periodicite": "pas de date de rentrée, accès tout au long de l'année",
+      "structureOperante": "emlyon venture labs"
+    },
+    {
       "duree": "10 mois",
       "phasesProjet": [
         "ETRE ACCOMPAGNE(E)",
@@ -309,84 +507,6 @@
       "structureOperante": "Centre d'Entrepreneuriat Lyon Saint-Etienne"
     },
     {
-      "duree": "18 mois",
-      "phasesProjet": [
-        "ETRE ACCOMPAGNE(E)",
-        "FAIRE EMERGER SON PROJET"
-      ],
-      "finalite": "Programme d'incubation réservé aux étudiants et aux diplômés des écoles et centres de formation du Campus René Cassin de Lyon.",
-      "typeAccompagnement": "Accompagnement collectif et individuel",
-      "lieuAccueil": "Campus René Cassin - 7 rue Jean-Marie Leclair - 69009 Lyon",
-      "descriptionAccompagnement": "Du mentorat \nDes mises en lien qualifiées avec un large réseau d’experts \nDes séances de coaching flash \nUn programme d’ateliers collectifs \nDes invitations pour les évènements entrepreneuriat du territoire \nL’expertise des écoles et centres de formation du Campus pour challenger votre projet \nL’accès à la French Tech Saint-Etienne Lyon",
-      "adherentFrenchTech": true,
-      "logo": "https://static.wixstatic.com/media/a1b0a1_6f0cc2249b234beda5e5c36975784c46~mv2.jpg/v1/fill/w_363,h_173,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO__STARTHEP%20_%20Incubateur_CMJN.jpg",
-      "latitude": 45.77470652739116,
-      "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/starthep-campus-rene-cassin",
-      "siteWeb": "Site intenet du Campus René cassin : https://www.campus-renecassin.com/incubateur-starthep",
-      "criteresEntrepreneur": [
-        "Au moins un membre de l'équipe doit être étudiant ou diplômé d'une des écoles du Campus René Cassin. Les candidats doivent être les fondateurs ou co-fondateurs. Etat d’esprit : entraide",
-        "réciprocité",
-        "participation active. Avoir la validation de son école ou centre de formation."
-      ],
-      "longitude": 4.806129797307283,
-      "aidesFinancieres": "non concerné",
-      "nomProgramme": "Incubateur Starthep",
-      "criteresEntreprise": "non concerné",
-      "posteTravailPropose": true,
-      "niveauDeveloppement": [
-        "Idéation",
-        "Amorçage"
-      ],
-      "typeEntreprise": [
-        "Tous types sauf restauration",
-        "BTP et activités réglementées."
-      ],
-      "modalitesContractuelles": "Programme d'accompagnement financé par les écoles du Campus. Gratuit pour les étudiants et diplômés.",
-      "contactMail": "delphine.benzoni@campus-renecassin.com",
-      "codePostal": "69009",
-      "id": "incubateur-starthep-8",
-      "mentoringPropose": true,
-      "periodicite": "Une promotion par an - Appel à candidatures en janvier de chaque année - Début du programme en avril de chaque année",
-      "structureOperante": "Campus René Cassin"
-    },
-    {
-      "duree": "Sans date de fin",
-      "phasesProjet": [
-        "ETRE ACCOMPAGNE(E)",
-        "SE DEVELOPPER"
-      ],
-      "finalite": "Développer son activité : développement commercial, gestion, innovation, numérique, ressources humaines, métiers d'arts, métiers de l'alimentaire, environnement...",
-      "typeAccompagnement": "Accompagnement individuel",
-      "lieuAccueil": "Lyon - Villefranche - Saint Etienne - Roanne.. Ou en distanciel (toutes les agences de la CMA)",
-      "descriptionAccompagnement": "Accompagnement individuel (1h à 1 journée selon les thématiques)",
-      "adherentFrenchTech": false,
-      "logo": "/uploads/logo-chambre-de-metiers-et-de-lartisanat-auvergne-rhone-alpes.png",
-      "latitude": 45.44270809720657,
-      "lienRdvFT": "Non concerné",
-      "siteWeb": "https://www.cma-auvergnerhonealpes.fr/gerer-et-developper/",
-      "criteresEntrepreneur": [
-        "Etre artisan"
-      ],
-      "longitude": 4.38246026160598,
-      "aidesFinancieres": "Non concerné",
-      "nomProgramme": "Accompagnement et coaching",
-      "criteresEntreprise": "Etre installé",
-      "posteTravailPropose": false,
-      "niveauDeveloppement": [
-        "Développement"
-      ],
-      "typeEntreprise": [
-        "Activités artisanales"
-      ],
-      "modalitesContractuelles": "Accompagnement pris en charge à 100%",
-      "contactMail": "contact@cma-auvergnerhonealpes.fr",
-      "codePostal": "",
-      "id": "accompagnement-et-coaching-93",
-      "mentoringPropose": false,
-      "periodicite": "Tout au long de l'année",
-      "structureOperante": "Chambre de Métiers et de l'Artisanat Auvergne Rhône-Alpes"
-    },
-    {
       "duree": "4 mois",
       "phasesProjet": [
         "FAIRE EMERGER SON PROJET",
@@ -422,86 +542,6 @@
       "id": "startup-camp-9",
       "mentoringPropose": false,
       "periodicite": "2 promotions par an, de sept à janv et d'avril à juillet (changement en 2027 de février à juin",
-      "structureOperante": "emlyon venture labs"
-    },
-    {
-      "duree": "12 mois",
-      "phasesProjet": [
-        "ETRE ACCELERE",
-        "ETRE ACCOMPAGNE(E)",
-        "SE DEVELOPPER"
-      ],
-      "finalite": "challenge et accompagnement dans la phase de lancement",
-      "typeAccompagnement": "Accompagnement collectif et individuel",
-      "lieuAccueil": "144 avenue Jean Jaurès 69007 Lyon",
-      "descriptionAccompagnement": "24h de mentorat, 4 revues de projet / an, 25 ateliers collectifs, accès à des office-hours. Dossier de candidature à compléter sur notre site puis entretien et comité de sélection.",
-      "adherentFrenchTech": true,
-      "logo": "/uploads/logo-emlyon-venture-labs.png",
-      "latitude": 45.737457856659084,
-      "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/emlyon-venture-labs",
-      "siteWeb": "https://venturelabs.em-lyon.com/mentorat/",
-      "criteresEntrepreneur": [
-        "pas de critère d'âge ou de profil."
-      ],
-      "longitude": 4.841732583439247,
-      "aidesFinancieres": "non concerné",
-      "nomProgramme": "Mentorat",
-      "criteresEntreprise": "non concerné",
-      "posteTravailPropose": true,
-      "niveauDeveloppement": [
-        "Amorçage",
-        "Développement",
-        "Accélération"
-      ],
-      "typeEntreprise": [
-        "tous secteurs"
-      ],
-      "modalitesContractuelles": "Droits d'entrée 1600€HT + cotisation annuelle 1600€HT + 150€/poste/an",
-      "contactMail": "huber@em-lyon.com",
-      "codePostal": "69007",
-      "id": "mentorat-10",
-      "mentoringPropose": true,
-      "periodicite": "pas de date de rentrée, accès tout au long de l'année",
-      "structureOperante": "emlyon venture labs"
-    },
-    {
-      "duree": "12 mois",
-      "phasesProjet": [
-        "ETRE ACCOMPAGNE(E)",
-        "FAIRE EMERGER SON PROJET",
-        "SE DEVELOPPER"
-      ],
-      "finalite": "challenge et accompagnement de l'émergence et le développement de projets",
-      "typeAccompagnement": "Accompagnement collectif et individuel",
-      "lieuAccueil": "144 avenue Jean Jaurès 69007 Lyon",
-      "descriptionAccompagnement": "24h de mentorat, 25 ateliers collectifs. Dossier de candidature à compléter sur notre site puis entretien et comité de sélection.",
-      "adherentFrenchTech": true,
-      "logo": "/uploads/logo-emlyon-venture-labs.png",
-      "latitude": 45.73532902951512,
-      "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/emlyon-venture-labs",
-      "siteWeb": "https://venturelabs.em-lyon.com/entrepreneur-academy/",
-      "criteresEntrepreneur": [
-        "Au moins un membre de l'équipe doit être étudiant ou diplômé de moins d'un an de l'emlyon business school. Les candidats doivent être les fondateurs ou co-fondateurs."
-      ],
-      "longitude": 4.834474608325421,
-      "aidesFinancieres": "non concerné",
-      "nomProgramme": "Entrepreneur academy",
-      "criteresEntreprise": "non concerné",
-      "posteTravailPropose": false,
-      "niveauDeveloppement": [
-        "Idéation",
-        "Amorçage",
-        "Développement"
-      ],
-      "typeEntreprise": [
-        "tous secteurs"
-      ],
-      "modalitesContractuelles": "compris dans les frais de scolarité",
-      "contactMail": "huber@em-lyon.com",
-      "codePostal": "69007",
-      "id": "entrepreneur-academy-11",
-      "mentoringPropose": true,
-      "periodicite": "pas de date de rentrée, accès tout au long de l'année. Accompagnement jusqu'à un an après la diplomation.",
       "structureOperante": "emlyon venture labs"
     },
     {
@@ -725,46 +765,6 @@
       "mentoringPropose": true,
       "periodicite": "2 sessions par an : - début juin - début janvier",
       "structureOperante": "emlyon venture labs, ISARA et Village by CA Centre Est"
-    },
-    {
-      "duree": "4 mois",
-      "phasesProjet": [
-        "ETRE ACCOMPAGNE(E)",
-        "FAIRE EMERGER SON PROJET"
-      ],
-      "finalite": "Structurer son idée, passer de l'idéation au lancement d'une startup grâce à un programme complet et qualitatif",
-      "typeAccompagnement": "Accompagnement collectif",
-      "lieuAccueil": "2, avenue Tony Garnier 690007 Lyon",
-      "descriptionAccompagnement": "4 mois de formation 1 semaine à l'emlyon Des ateliers collectifs / Masterclass / témoignages inspirants Pas de mentoring ou accompagnement individuel 120h de formation gratuites 1 concours de pitch 2 appels à candidature pour 2 éditions annuelles",
-      "adherentFrenchTech": true,
-      "logo": "/uploads/logo-french-tech-st-etienne-lyon.png",
-      "latitude": 45.44109378099915,
-      "lienRdvFT": "https://rdv.lafrenchtech-stl.com/acteur/lyon-start-up",
-      "siteWeb": "https://www.lyonstartup.com/",
-      "criteresEntrepreneur": [
-        "Ouvert à toutes et tous",
-        "quels que soitent la profession",
-        "l'âge ou le secteur d'activité envisagé."
-      ],
-      "longitude": 4.383227383545799,
-      "aidesFinancieres": "non concerné",
-      "nomProgramme": "Lyon Start Up",
-      "criteresEntreprise": "antécréation",
-      "posteTravailPropose": false,
-      "niveauDeveloppement": [
-        "Idéation"
-      ],
-      "typeEntreprise": [
-        "Le projet doit être innovant",
-        "peu importe le secteur d'activité"
-      ],
-      "modalitesContractuelles": "Programe entièrement gratuit",
-      "contactMail": "lyonstartup@lafrenchtech-stl.com",
-      "codePostal": "",
-      "id": "lyon-start-up-18",
-      "mentoringPropose": false,
-      "periodicite": "2 éditions annuelles : - Mars à juin : les candidatures se font sur les mois de janvier et février. - Septembre à décembre : les candidatures se font sur les mois de juin et juillet.",
-      "structureOperante": "French Tech St Etienne Lyon"
     },
     {
       "duree": "12 mois",
